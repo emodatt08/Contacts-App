@@ -5,7 +5,7 @@ This repository holds the TypeScript source code of the [angular.io quickstart](
 
 <h2 id="screenshots">Screenshot</h2>
 
-![](assets/screenshot/contacts.png)
+![](assets/contacts.png)
 
 Install the npm packages described in the `package.json` and verify that it works:
 
