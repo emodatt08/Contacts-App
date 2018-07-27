@@ -12,8 +12,9 @@ getUsers(){
 return this.http.get('http://localhost:5000/api/v1/users').map(res => res.json());
 }
 
-storeUser(params: string){
-    let store = this.http.post('http://localhost:5000/api/v1/users',{params}).map(res => res.json());
+storeUser(params: any){
+    //console.log(params);
+    return this.http.post('http://localhost:5000/api/v1/users',{params}).map(res => res.json());
 }
 
 }

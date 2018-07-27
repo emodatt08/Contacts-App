@@ -1,6 +1,4 @@
 # Angular contacts manager
-[![Build Status][travis-badge]][travis-badge-url]
-
 This repository holds the TypeScript source code of the [angular.io quickstart](https://angular.io/docs/ts/latest/quickstart.html). Powered by a flask/MySql backend, the app can be used to store contacts easily. 
 
 <h2 id="screenshots">Screenshot</h2>

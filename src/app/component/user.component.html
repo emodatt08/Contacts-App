@@ -5,7 +5,7 @@
                         <h5 style="height:55px; padding-top:15px;" class="btn btn-danger">Add Contact</h5>
                         <div class="card-body">
                                 
-                                        <form (submit) = "addHobby(hobby.value)" class="col-12">
+                                        <form #contactForm="ngForm" (ngSubmit)="storeUser(contactForm)" class="col-12">
                                                 <div class="form-group">
                                                         <label for="exampleFormControlInput1">Name</label>
                                                         <input type ="text" name ="name" [(ngModel)]="name" class="form-control" id="value">
